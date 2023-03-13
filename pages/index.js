@@ -125,7 +125,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Work as a consultant and manager in healthcare technology industry
+          Consultant in healthcare technology industry
         </BioSection>
       </Section>
 
