@@ -1,18 +1,13 @@
 import {
-  Box,
   SimpleGrid,
   Container,
   Badge,
   Link,
   List,
-  ListItem,
-  UnorderedList,
-  Heading,
-  Center
+  ListItem
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
@@ -22,10 +17,10 @@ const Work = () => (
         MedPal<Badge>2022</Badge>
       </Title>
       <div>
-        Healthcare bot developed specifically to accomodate users' needs with regards to determining his/hers health condition based on the input of observed symptoms. 
+        Healthcare bot developed specifically to accomodate user needs with regards to determining his/hers health condition based on the input of observed symptoms. 
         When user confirms suggested condition, MedPal suggests the necessary treatment needed to combat desease or disorder.
         The AI behind the treatment suggestion is developed upon collaborative filtering algorithm (CFT). 
-        MedPal can act as the medication reminder as well, by sending you the corresponding message when it's time to take your pills.
+        MedPal can act as the medication reminder as well, by sending you the corresponding message when it&apos;s time to take your pills.
          
       </div>
       <List ml={4} my={4}>
