@@ -10,7 +10,7 @@ import {
   useColorModeValue,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon, DownloadIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, /*EmailIcon*/ DownloadIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
