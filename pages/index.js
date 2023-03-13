@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-       Hello, I&apos;m an medical engineer with passion for user-centered design and developme
+       Hello, I&apos;m an medical engineer with passion for user-centered design and development
       </Box>
 
       <Box display={{ md: 'flex' }}>
