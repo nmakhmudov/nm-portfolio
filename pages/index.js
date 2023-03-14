@@ -138,7 +138,7 @@ const Home = () => (
         </div>
 
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1b8IX0IUj-NoJOaXk7OKRpU74EniWRWof/view?usp=share_link" passHref scroll={false}>
+          <NextLink href="https://drive.google.com/file/d/1__R6uk1tHza1bsrZIIV8D4S3bN3mSq5G/view?usp=share_link" passHref scroll={false}>
             <Button rightIcon={<DownloadIcon />} colorScheme="teal" >
               My CV
             </Button>
