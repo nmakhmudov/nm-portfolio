@@ -163,7 +163,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/nmakh3101" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -174,7 +174,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="www.linkedin.com/in/nijat-makmudov-18018179" target="_blank">
+            <Link href="https://www.linkedin.com/in/nmakh3101/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
