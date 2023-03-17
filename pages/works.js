@@ -36,7 +36,7 @@ const Works = () => (
         
         <Section delay={0.1}>
           <WorkGridItem id="ludi" title="LuDi" thumbnail={thumbLudi}>
-            Machine learning models for diagnosis. A Lung Diagnosis deep learning model for the task of chest x-ray classification and diagnosis whether or not a patient suffers from any lung disease
+            Development a deep learning models for medical image interpretation. A Lung Diagnosis deep learning model for the task of chest x-ray classification as well as the development of a model for segmenting tumors in MRIs
           </WorkGridItem>
         </Section>
       </SimpleGrid>
