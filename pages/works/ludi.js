@@ -5,13 +5,13 @@ import {
 //  Link,
 //  List,
 //  ListItem,
-//  SimpleGrid,
+  SimpleGrid,
 //  UnorderedList,
 //  Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 //import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, /*WorkImage Meta*/} from '../../components/work'
+import { Title, WorkImage } from '../../components/work'
 
 const Work = () => (
   <Layout title="Ludi">
