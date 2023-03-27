@@ -28,10 +28,7 @@ const Work = () => (
       <div>
 
       <SimpleGrid columns={2} gap={2} >
-        <WorkImage src="/images/works/medpal_02.png" alt="medpal" />
-        <WorkImage src="/images/works/medpal_03.png" alt="medpal" />
-        <WorkImage src="/images/works/medpal_04.png" alt="medpal" />
-        <WorkImage src="/images/works/medpal_05.png" alt="medpal" />
+        <WorkImage src="/images/works/x-ray.png" alt="ludi" />
       </SimpleGrid>
         
       </div>
