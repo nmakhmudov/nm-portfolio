@@ -25,13 +25,9 @@ const Work = () => (
         Algorithm could classify clinically important abnormalities on chest radiographs at a performance level comparable to practicing radiologists.
       </div>
 
-      <div>
-
       <SimpleGrid columns={2} gap={2} >
         <WorkImage src="/images/works/x-ray.png" alt="ludi" />
       </SimpleGrid>
-        
-      </div>
 
     </Container>
   </Layout>
