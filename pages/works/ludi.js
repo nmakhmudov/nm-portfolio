@@ -26,12 +26,6 @@ const Work = () => (
       </div>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://epital.com/da/">
-            https://www.epital.com/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
@@ -42,6 +36,11 @@ const Work = () => (
         <ListItem>
           <Meta>Framework</Meta>
           <span>Tensorflow, Keras, PyTorch</span>
+        </ListItem>
+
+        <ListItem>
+          <Meta>Protocols</Meta>
+          <span>TCP, FreeTDS</span>
         </ListItem>
       </List>
       <SimpleGrid columns={2} gap={2} >
