@@ -41,7 +41,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Framework</Meta>
-          <span>Tensorflow, Keras</span>
+          <span>Tensorflow, Keras, PyTorch</span>
         </ListItem>
       </List>
       <SimpleGrid columns={2} gap={2} >
