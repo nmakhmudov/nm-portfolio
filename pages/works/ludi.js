@@ -3,8 +3,8 @@ import {
   Container,
   Badge,
 //  Link,
-//  List,
-//  ListItem,
+  List,
+  ListItem,
   SimpleGrid,
 //  UnorderedList,
 //  Image
