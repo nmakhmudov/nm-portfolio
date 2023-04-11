@@ -24,25 +24,6 @@ const Work = () => (
         can train its neural network to diagnose whether or not a patient suffers from one of the fourteen pathological conditions.
         Algorithm could classify clinically important abnormalities on chest radiographs at a performance level comparable to practicing radiologists.
       </div>
-      
-      <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Language</Meta>
-          <span>Java, Python, Linux</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Framework</Meta>
-          <span>Tensorflow, Keras, PyTorch</span>
-        </ListItem>
-        <ListItem>
-          <Meta>ML Algorithms</Meta>
-          <span>Convolutional Neural Network (CNN)</span>
-        </ListItem>
-      </List>
 
       <SimpleGrid columns={2} gap={2} >
         <WorkImage src="/images/works/x-ray.png" alt="ludi" />
