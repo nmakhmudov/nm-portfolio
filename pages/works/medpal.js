@@ -21,10 +21,10 @@ const Work = () => (
         When user confirms suggested condition, MedPal suggests the necessary treatment needed to combat desease or disorder.
         The AI behind the treatment suggestion is developed upon collaborative filtering algorithm (CFT). 
         MedPal can act as the medication reminder as well, by sending you the corresponding message when it&apos;s time to take your pills.
-         
       </div>
+
       <List ml={4} my={4}>
-      <ListItem>
+        <ListItem>
           <Meta>Telegram</Meta>
           <Link href="https://sberhealth.ru">
           https://sberhealth.ru <ExternalLinkIcon mx="2px" />

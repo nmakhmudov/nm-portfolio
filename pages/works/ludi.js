@@ -6,7 +6,7 @@ import {
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
+//  UnorderedList,
 //  Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
@@ -24,6 +24,7 @@ const Work = () => (
         can train its neural network to diagnose whether or not a patient suffers from one of the fourteen pathological conditions.
         Algorithm could classify clinically important abnormalities on chest radiographs at a performance level comparable to practicing radiologists.
       </div>
+      
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
@@ -37,15 +38,16 @@ const Work = () => (
           <Meta>Framework</Meta>
           <span>Tensorflow, Keras, PyTorch</span>
         </ListItem>
-
         <ListItem>
-          <Meta>Protocols</Meta>
-          <span>TCP, FreeTDS</span>
+          <Meta>ML Algorithms</Meta>
+          <span>Convolutional Neural Network (CNN)</span>
         </ListItem>
       </List>
+
       <SimpleGrid columns={2} gap={2} >
         <WorkImage src="/images/works/x-ray.png" alt="ludi" />
       </SimpleGrid>
+
     </Container>
   </Layout>
 )
